@@ -20,7 +20,8 @@ public class GameController {
 			} else {
 				moveY = -Game.MOVE_DIST;
 			}
-			
+
+
 			game.setSquareDx(moveX);
 			game.setSquareDy(moveY);
 		}
